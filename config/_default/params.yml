@@ -26,12 +26,12 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
-subtitle: "少女祈祷中..."
+author: 南流景
+email: 1658988911@qq.com
+description: "记录与分享计算机知识"
+subtitle: "学习计算机中"
 
-banner: "images/banner.webp"
+banner: "images/back.webp"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -46,7 +46,7 @@ banner_srcset:
     - src: "images/banner.webp"
       media: "(min-width: 800px)"
 
-avatar: "avatar.webp"
+avatar: "avatar.jpg"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -82,9 +82,9 @@ copyright:
 # copyright: |-
 #   <div style="flex-direction:column;align-items: center;"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
-
+#页脚
 footer:
-  since: 2020 # 2020-current year
+  since: 2026 #哪年开始
   powered: true
   count: true
   busuanzi: true
@@ -96,14 +96,14 @@ footer:
 # Sidebar
 # sidebar: right # deprecated, use sidebar.position instead
 sidebar:
-  position: right
-  menu: true  # whether to show the sidebar menu button, ignored on mobile devices
+  position: left
+  menu: true  # 是否显示侧边栏菜单按钮，移动端忽略
   article:
-    show_common: true # whether to show common sidebar, ignored on mobile devices
+    show_common: true # 文章页是否显示通用侧边栏，移动端忽略
 
 social:
-  # email: mailto:xxx@gmail.com
-  # github: https://github.com/yourname
+  email: mailto:1658988911@qq.com
+  github: https://github.com/nanliujing666
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
@@ -129,10 +129,10 @@ social:
   # steam: https://steamcommunity.com/id/yourname
 
 widgets:
-  - category
-  - tag
-  - tagcloud
-  - recent_posts
+  - category # 分类
+  - tag # 标签
+  - tagcloud # 标签云
+  - recent_posts # 最近文章
 
 # Widget behavior
 category_limits: 10
@@ -184,9 +184,9 @@ layout:
   max_width: 1350px # the max width of the main content area
 
 triangle_badge:
-  enable: false
+  enable: true
   icon: github # same as the icon in the social config
-  link: https://github.com/D-Sketon/hugo-theme-reimu
+  link: https://github.com/nanliujing666
 
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
@@ -267,8 +267,8 @@ code_block:
 # Clipboard configuration
 clipboard:
   success: 
-    en: Copy successfully (*^▽^*)
-    zh-CN: 复制成功 (*^▽^*)
+    en: Copy successfully Ciallo~(∠・ω< )⌒☆
+    zh-CN: 复制成功Ciallo~(∠・ω< )⌒☆
     zh-TW: 複製成功 (*^▽^*)
     ja: コピー成功 (*^▽^*)
     pt-BR: Copiado com sucesso (*^▽^*)
@@ -429,10 +429,10 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷中...
-    zh-TW: 少女祈禱中...
+    zh-CN: 数据包赶来中...
+    zh-TW: 数据包赶来中...
     en: Loading...
-    ja: 少女祈祷中...
+    ja: 数据包赶来中...
     pt-BR: Carregando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
@@ -526,15 +526,15 @@ outdate:
     ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
     pt-BR: Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.
 
-# ICP 备案
-icp:
-  icpnumber: # ICP备案号
-  beian: # 网安备案号
-  recordcode: # 网安备案链接中的recordcode参数
+# # ICP 备案
+# icp:
+#   icpnumber: # ICP备案号
+#   beian: # 网安备案号
+#   recordcode: # 网安备案链接中的recordcode参数
 
-# 萌国 ICP 备案
-moe_icp:
-  icpnumber: # 萌国ICP备案号
+# # 萌国 ICP 备案
+# moe_icp:
+#   icpnumber: # 萌国ICP备案号
 
 # Sponsor
 sponsor:
@@ -590,7 +590,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -676,16 +676,16 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
-    --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
+    --red-0: '#FF69B4' #侧边栏选中  头顶栏，文章日期背景
+    --red-1: '#FFB6C1' #主控色 侧边栏鼠标停留  文章标题  选中页码  （icon）太极图  选中文字
+    --red-2: '#DB7093' #博客主人名字  当前语言  邮箱图标
+    --red-3: '#FF69B4' #测滚动条
+    --red-4: '#FFF0F5' #白
+    --red-5: '#FFB6C1'  #通用淡色
+    --red-5-5: '#7B68EE' 
+    --red-6: '#FF69B4' #通用深色
+    --color-red-6-shadow: 'rgba(243,156,217, 0.6)'
+    --color-red-3-shadow: 'rgba(243,156,217, 0.3)'
 
     --highlight-nav: "#f5f5f5"
     --highlight-scrollbar: "#d6d6d6"
@@ -693,7 +693,7 @@ internal_theme:
     --highlight-selection: "#e9e9e988"
     --highlight-foreground: "#24292e"
     --highlight-comment: "#7d7d7d"
-    --highlight-red: "#d73a49"
+    --highlight-red: "#FFC0CB"
     --highlight-orange: "#e36209"
     --highlight-yellow: "#cb911d"
     --highlight-green: "#22863a"
