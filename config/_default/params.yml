@@ -204,10 +204,10 @@ icon_font: 4552607_4k4bc36ef96
 
 # Custom Font
 custom_font:
-  enable: false
+  enable: true
   article:
-    # - css: https://fontsapi.zeoseven.com/292/main/result.css # font css
-    #   name: LXGW WenKai # font name
+     - css: /css/font.css # font css
+       name: MapleMonoCN # font name
   code:
 
 # https://fonts.google.com/
@@ -590,7 +590,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: true
+  enable: false
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink

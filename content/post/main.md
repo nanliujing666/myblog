@@ -1,9 +1,8 @@
 ---
-title: Markdown Basic Elements
+title: Markdown文档编写示例
 description: 测试 Markdown 基本元素
-
 date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
+lastmod: 2026-01-025T00:17:52+08:00
 tags:
   - markdown
   - test
@@ -11,10 +10,9 @@ categories:
   - test
 math: true
 mermaid: true
-photos:
-  - https://d-sketon.top/img/backwebp/bg1.webp
-  - https://d-sketon.top/img/backwebp/bg2.webp
-  - https://d-sketon.top/img/backwebp/bg3.webp
+
+  
+cover: /images/cover/1.jpg
 ---
 
 ## Markdown 基本元素
@@ -509,3 +507,34 @@ $$ -->
 {{<postLinkCard path="/post/chinese" cover="auto" >}}
 
 {{<externalLinkCard title="Github" link="https://github.com/D-Sketon/hugo-theme-reimu" cover="https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png">}}
+
+
+<details>
+<summary>Front-matter 字段</summary>
+
+## Front-matter 字段
+
+| meta        | 描述                                            | 类型                         | 取值逻辑           | 版本      |
+| ----------- | ----------------------------------------------- | ---------------------------- | ------------------ | --------- |
+| title       | 标题                                            | `string`                     | -                  | Hugo 内置 |
+| date        | 文章创建时间                                    | `datetime`                   | -                  | Hugo 内置 |
+| lastmod     | 文章最后修改时间                                | `datetime`                   | -                  | Hugo 内置 |
+| summary     | 文章摘要                                        | `string`                     | -                  | Hugo 内置 |
+| weight      | 文章权重，用于排序/置顶                         | `int`                        | -                  | Hugo 内置 |
+| categories  | 文章分类                                        | `string[]`                   | -                  | 0.0.1     |
+| tags        | 文章标签                                        | `string[]`                   | -                  | 0.0.1     |
+| description | 文章描述                                        | `string`                     | -                  | 0.0.1     |
+| mermaid     | 是否开启 mermaid，需配合 `mermaid` 配置一起使用 | `boolean`                    | `false`            | 0.0.1     |
+| math        | 是否开启 LaTeX，需配合 `math` 配置一起使用      | `boolean`                    | `false`            | 0.0.1     |
+| link        | 用于文章直接指向外部链接                        | `string`                     | -                  | 0.0.1     |
+| copyright   | 是否开启文章版权声明                            | `boolean`                    | 不传默认走全局配置 | 0.0.1     |
+| sponsor     | 是否开启文章赞助                                | `boolean`                    | 不传默认走全局配置 | 0.0.1     |
+| comments    | 是否开启文章评论                                | `boolean`                    | 不传默认走全局配置 | 0.0.1     |
+| photos      | 文章照片墙                                      | `string[]`                   | -                  | 0.0.1     |
+| sidebar     | 文章侧边栏位置                                  | `false \| 'left' \| 'right'` | 不传默认走全局配置 | 0.5.0     |
+| toc         | 是否开启文章目录                                | `boolean`                    | 不传默认走全局配置 | 0.7.0     |
+| outdated    | 文章是否过期                                    | `boolean`                    | 不传默认走全局配置 | 0.13.1    |
+| author      | 文章作者，用于文章版权和分享卡片                | `string`                     | 不传默认走全局配置 | 0.13.2    |
+| keywords    | 文章关键词                                      | `string[] \| string`         | 不传默认走全局配置 | 0.13.4    |
+| cover    | 文章封面和背景图                                      | `/images/cover/xxxxxx`         |  |     |
+</details>
