@@ -90,6 +90,10 @@ Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipi
 
 ![image](https://d-sketon.top/img/backwebp/bg1.webp)
 
+### 引用
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+
 ### 分隔线
 
 ---
@@ -504,7 +508,7 @@ $$ -->
 
 ## 卡片
 
-{{<postLinkCard path="/post/chinese" cover="auto" >}}
+{{<postLinkCard path="/post/hugo" cover="auto" >}}
 
 {{<externalLinkCard title="Github" link="https://github.com/D-Sketon/hugo-theme-reimu" cover="https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png">}}
 
