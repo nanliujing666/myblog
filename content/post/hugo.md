@@ -4,6 +4,11 @@ title: 使用hugo创建博客方法总结
 date: 2026-01-25T14:30:52+08:00
 lastmod: 2026-01-25T14:30:52+08:00
 cover: /images/cover/hugo.png
+tags:
+  - blog
+  
+categories:
+  - 计算机技术
 ---
 ### hugo本体下载
 &ensp;&ensp;hugo是一个程序，会将配置文件和模板转化为静态文件，放到public中，这是所有自动部署的原理，如Netflix会通过读取netlify.toml中的配置自动使用正确的软件构建public

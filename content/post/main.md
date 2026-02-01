@@ -5,9 +5,9 @@ date: 2022-06-09T20:12:52+08:00
 lastmod: 2026-01-025T00:17:52+08:00
 tags:
   - markdown
-  - test
 categories:
-  - test
+  - 计算机技术
+
 math: true
 mermaid: true
 
