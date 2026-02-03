@@ -3,7 +3,7 @@ title: vim使用教程
 description: 简述vim的各种快捷命令 
 date: 2026-01-30T12:30:52+08:00
 lastmod: 2026-01-30T12:30:52+08:00
-cover: /images/cover/vim.webp
+cover: /images/cover/vim.png
 mermaid: True
 tags:
   - vim 
