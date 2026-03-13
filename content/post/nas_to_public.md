@@ -80,7 +80,7 @@ post-receive内容
 ```bash
 #!/bin/sh
 # 自动推送已配置好的远程仓库（github）
-# 前提：已在裸仓库中配置好 'github' 远程，并使用 HTTPS + PAT 认证
+# 前提：已在裸仓库中配置好 'github' 远程
 
 echo "【Auto Sync】正在推送到 GitHub..."
 
