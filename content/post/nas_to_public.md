@@ -32,7 +32,7 @@ categories:
   sequenceDiagram
   participant 本地开发计算机
   participant github
-  本地开发计算机->>nas:git push
+  本地开发计算机->>github:git push
 ```
 在本地计算机commit时，选择你要提交的远程仓库，如果提交到nas，nas会使用hook(post-receive)自动化提交到GitHub
 
