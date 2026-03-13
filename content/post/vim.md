@@ -28,6 +28,9 @@ categories:
 
 
 ```
+ALT+T 跳转到终端
+ALT+F 跳转到编辑器
+
 
 ## 光标移动
 ```keyboard

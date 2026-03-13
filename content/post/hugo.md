@@ -2,7 +2,7 @@
 title: 使用hugo创建博客方法总结
 
 date: 2026-01-25T14:30:52+08:00
-lastmod: 2026-01-25T14:30:52+08:00
+lastmod: 2026-03-13T14:30:52+08:00
 cover: /images/cover/hugo.png
 tags:
   - blog
@@ -11,7 +11,7 @@ categories:
   - 计算机技术
 ---
 ### hugo本体下载
-&ensp;&ensp;hugo是一个程序，会将配置文件和模板转化为静态文件，放到public中，这是所有自动部署的原理，如Netlify会通过读取netlify.toml中的配置自动使用正确的软件构建public
+&ensp;&ensp;hugo是一个程序，会将配置文件和模板转化为静态文件，放到public中，并运行一个web服务器。这是所有自动部署的原理，如Netlify会通过读取netlify.toml中的配置自动使用正确的软件构建public，运行web服务器
 
 &ensp;&ensp;由于apt安装不到124版本，我使用了解压安装包的方法安装
 ```bash
@@ -25,7 +25,7 @@ hugo version # 验证是否成功
 ```
 
 ### 模板
-&ensp;&ensp;我直接使用了hugo-reimu-template的完整项目，除了需要处理一下git，其他都很简单
+&ensp;&ensp;我直接使用了[hugo-reimu-template](https://github.com/D-Sketon/hugo-reimu-template)的完整项目，除了需要处理一下git，其他都很简单
 
 
 ### 个性化

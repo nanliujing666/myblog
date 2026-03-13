@@ -2,7 +2,7 @@
 title: 我的git方案
 description: 将群晖的git-server备份到GitHub或者直接git到GitHub
 date: 2026-01-26T12:30:52+08:00
-lastmod: 2026-01-26T12:30:52+08:00
+lastmod: 2026-03-13T12:30:52+08:00
 cover: /images/cover/git.webp
 mermaid: True
 tags:
