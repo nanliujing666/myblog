@@ -5,7 +5,6 @@ date: 2026-01-26T12:30:52+08:00
 lastmod: 2026-01-26T12:30:52+08:00
 cover: /images/cover/git.webp
 mermaid: True
-draft: true
 tags:
   - git
   - nas
