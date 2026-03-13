@@ -42,8 +42,8 @@ categories:
 ```bash
 #到需要创建仓库的目录，建议一个项目一个仓库
 #全局身份信息，建议和github账号一致，这样github上你的提交会有头像
-git config --global user.name "nanliujing666"
-git config --global user.email "1658988911@qq.com"
+git config --global user.name "名字"
+git config --global user.email "邮箱"
 
 #创建仓库，也可以git clone
 git init 
@@ -68,8 +68,8 @@ git remote rename 旧名字 新名字
 ```bash
 #创建裸仓库
 git init --bare
-git config --global user.name "nanliujing666"
-git config --global user.email "1658988911@qq.com"
+git config --global user.name "名字"
+git config --global user.email "邮箱"
 
 git remote add github https://你的令牌@github.com/你的用户名/你的仓库名.git
 
